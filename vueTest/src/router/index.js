@@ -4,7 +4,7 @@ import addListItem from '@/components/addListItem'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 import list from '@/components/list'
-import {MdLayout, MdApp, MdToolbar, MdButton, MdIcon, MdContent, MdField, MdList, MdDialog, MdLayout} from 'vue-material/dist/components'  
+import {MdApp, MdToolbar, MdButton, MdIcon, MdContent, MdField, MdList, MdDialog, MdLayout} from 'vue-material/dist/components'  
 Vue.use(Router)
 Vue.use(MdApp)
 Vue.use(MdToolbar)
