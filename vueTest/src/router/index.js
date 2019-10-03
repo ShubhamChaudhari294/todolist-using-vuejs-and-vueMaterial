@@ -4,7 +4,8 @@ import addListItem from '@/components/addListItem'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 import list from '@/components/list'
-import {MdApp, MdToolbar, MdButton, MdIcon, MdContent, MdField, MdList, MdDialog, MdLayout} from 'vue-material/dist/components'  
+import {MdApp,MdToolbar, MdButton, MdIcon, MdContent,
+         MdField, MdList, MdDialog, MdLayout,MdSwitch, MdChips, MdSubheader, MdSteppers, MdCard} from 'vue-material/dist/components'  
 Vue.use(Router)
 Vue.use(MdApp)
 Vue.use(MdToolbar)
@@ -15,6 +16,11 @@ Vue.use(MdField)
 Vue.use(MdList)
 Vue.use(MdDialog)
 Vue.use(MdLayout)
+Vue.use(MdSubheader)
+Vue.use(MdSteppers)
+Vue.use(MdCard)
+Vue.use(MdSwitch)
+Vue.use(MdChips)
 export default new Router({
   routes: [
     {
